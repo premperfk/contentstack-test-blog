@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contentstack-test-blog/static/css/main.8dc59f75.css",
+    "main.js": "/contentstack-test-blog/static/js/main.f899f3c7.js",
+    "static/js/453.d91ac643.chunk.js": "/contentstack-test-blog/static/js/453.d91ac643.chunk.js",
+    "index.html": "/contentstack-test-blog/index.html",
+    "main.8dc59f75.css.map": "/contentstack-test-blog/static/css/main.8dc59f75.css.map",
+    "main.f899f3c7.js.map": "/contentstack-test-blog/static/js/main.f899f3c7.js.map",
+    "453.d91ac643.chunk.js.map": "/contentstack-test-blog/static/js/453.d91ac643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dc59f75.css",
+    "static/js/main.f899f3c7.js"
+  ]
+}
