@@ -12,14 +12,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Contentstack Blog</h1>
+      <h1>Articles</h1>
+      <div class="post-wrapper">
       {posts.map((post) => (
-        <div key={post.uid} className="post">
+        <a href={post.url} key={post.uid} className="post">
+          <img src={post.featured_image.url} alt={`Image for post${post.uid}`} />
           <h2>{post.title}</h2>
-          <p><strong>Author:</strong> {post.author}</p>
-          <div dangerouslySetInnerHTML={{ __html: post.body }} />
-        </div>
-      ))}
+          <p><i>Last Updated:</i> {post.updated_at}</p>
+        </a>
+      ))}</div>
     </div>
   );
 }
